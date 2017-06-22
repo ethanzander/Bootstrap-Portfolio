@@ -6,75 +6,86 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
-	<header>
-		<div class="nametab">
-		
-			Ethan Zander
-
+<!-- Header -->
+	<div class="row">
+		<div class="col-md-12">
+			<header class="container-fluid">
+				<div class="nametab col-md-5">
+					Ethan Zander
+				</div>
+				<div class="col-md-3">
+					<nav class="nav nav-pills btn-group btn-group-lg" role="group">
+						<ul class="nav nav-pills">
+  							<li role="presentation" class="disabled"><a href="index.html">Home</a></li>
+						  	<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+						  	<li role="presentation"><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 		</div>
-	
-
-		<div class="navigation">
-		
-			<nav>
-
-				<a href="index.html">About</a>
-		
-		 			| 
-
-				<a href="portfolio.html">Portfolio</a>
-
-		 			| 
-
-				<a href="contact.html">Contact</a>
-
-			</nav>
-		
-		</div>
-	
-	</header>
-	
-	<br><br><br><br>
-
-
-
-	<section class="content">
-		
-		<div class="floatleft">	
-			
-			<h2>About Me</h2>
-
-			<div class="divider">
-				
-			</div>
-
-				<img src="assets/EthanZander.jpg" style="width:200px;height:200px;">
-	
-					I live in Orem Utah with my wife and 2 children. I like to Code and Mountian Bike!!
-		
-		</div>
-
-		<div class="floatright">
-			
-			<h2>Portfolio</h2>
-
-		<div class="divider"></div>
-
-			Hangman
-			RPG Game
-			Trivia Game
-			Rutgers Info Widget
-			Rock Paper Scissors
-	
-		
 	</div>
- 
-	</section> 	
-
+	<!-- End Header -->
+	<!-- Start Main Content Container -->
+	<div class="content">
+		<!-- Start First column box -->
+		<div class="panel panel-default rightcol col-md-7">
+			<div class="panel-heading">
+				<h2>Portfolio</h2>
+					<!-- <div class="divider"></div> -->
+	    	<div class="panel-body thumbnail col-md-3">
+        		<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman" style= "height: 200px; width: 200px;">
+        		<div class="caption">
+        			<h4>Hangman</h4>
+        			<p>This is a little word guesing game.</p>
+        		</div>
+      		</div>
+      		<div class="panel-body thumbnail col-md-3">
+        		<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" style= "height: 200px; width: 200px;">
+        		<div class="caption">
+        			<h4>RPG Game</h4>
+        			<p>This is a role play game.</p>
+        		</div>
+      		</div>
+      		<div class="panel-body thumbnail col-md-3">
+        		<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game" style= "height: 200px; width: 200px;">
+        		<div class="caption">
+        			<h4>Trivia Game</h4>
+        			<p>Are you Jepordy level trivia master?</p>
+				</div>
+      		</div>
+      		<div class="panel-body thumbnail col-md-3">
+        		<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" style= "height: 200px; width: 200px;">
+        		<div class="caption">
+        			<h4>Rutgers Info Widget</h4>
+        			<p>Just a little widget.</p>
+        		</div>
+      		</div>
+      		<div class="panel-body thumbnail col-md-3">
+        		<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors" style= "height: 200px; width: 200px;">
+        		<div class="caption">
+					<h4>Rock Paper Scissors</h4>
+					<p>Digital game of chance.</p>
+				</div>
+      		</div>
+		</div>
+	</div> 
+	<!-- Second colum Box -->
+		<div class="panel rightcol col-md-3">
+			<h3>Connect with Me</h3>
+				<div class="divider"></div>
+			<div class="justify col-md-12">
+					<a href="https://github.com/ethanzander" target="_blank"><img src="assets/githubicon.png" style="width: 50px;height: 50px;"></a>
+					<a href="https://www.linkedin.com/in/ethan-zander-873873a1/" target="_blank"><img src="assets/linkedinicon.png" style="width: 50px;height: 50px;"></a>
+					<a href="https://stackoverflow.com/users/8087216/ethan-zander?tab=profile" target="_blank"><img src="assets/stackoverflowicon.png" style="width: 45px;height: 45px;"></a>
+			</div>
+		</div>	
+	</div>
+<!-- End Second Column Box -->
+	<!-- Start Footer -->
 	<footer class="footer">
 	
-		Copyright 2017 Ethan Zander
+		Copyright &copy 2017 Ethan Zander
 
 	</footer>
 

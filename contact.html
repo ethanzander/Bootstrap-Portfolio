@@ -6,109 +6,81 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
-	<header>
-		<div class="nametab">
-		
-			Ethan Zander
-
+	<!-- Header -->
+	<div class="row">
+		<div class="col-md-12">
+			<header class="container-fluid col-md-12">
+				<div class="nametab col-md-5">
+					Ethan Zander
+				</div>
+				<div class="col-md-3">
+					<nav class="nav nav-pills btn-group btn-group-lg" role="group">
+						<ul class="nav nav-pills">
+  							<li role="presentation" class="disabled"><a href="index.html">Home</a></li>
+						  	<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+						  	<li role="presentation"><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 		</div>
-	
+	</div>
+	<!-- End Header -->
+	<!-- Start Content -->
+	<div class="content">
+		<!-- Start First column box -->
+		<div class="panel panel-default rightcol col-md-7">
+			<div class="panel-heading">
+				<h2>Portfolio</h2>
+			</div>
+				<form>
+  					<div class="form-group">
+			    		<label for="inputName">Name</label>
+			    		<input type="text" class="form-control" id="inputName" placeholder="First, Last">
+			    	</div>
 
-		<div class="navigation">
-		
-			<nav>
-
-				<a href="index.html">About</a>
-		
-		 			| 
-
-				<a href="portfolio.html">Portfolio</a>
-
-		 			| 
-
-				<a href="contact.html">Contact</a>
-
-			</nav>
-		
+					<div class="form-group">
+			    		<label for="exampleInputEmail1">Email address</label>
+			    		<input type="email" class="form-control" id="inputEmail" placeholder="example@foryou.com">
+					</div>
+					<div class="form-group">
+			    		<label for="inputMessage">Message:</label>
+			    		<input type="text" class="form-control" id="inputMessage" placeholder="Please type your message here.">
+					</div>
+			  		<div class="form-group">
+			    		<label for="exampleInputFile">File Upload</label>
+			    		<input type="file" id="exampleInputFile">
+			    		<p class="help-block">If you have a file to share, please upload it here.</p>
+					</div>
+					<div class="form-group">
+						<label>How did you find my site?</label>
+					<div></div>	
+						<input type="checkbox"> LinkedIn
+			      		<input type="checkbox"> GitHub
+			      		<input type="checkbox"> Stack Overflow
+			      		<input type="checkbox"> Facebook
+					</div>
+					<button type="submit" class="btn submitbtn btn-default">Submit</button>
+				</form>
 		</div>
-	
-	</header>
-	
-	<br><br><br><br>
-
-
-
-	<section class="content">
-		
-		<div class="jumbotron">	
-			
-			<h2>Contact</h2>
-
-		<div class="divider"></div>
-
-		<form>
-  
-			<div class="form-group">
-			    <label for="inputName">Name</label>
-			    <input type="text" class="form-control" id="inputName" placeholder="First, Last">
-
-			</div>
-
-			<div class="form-group">
-			    <label for="exampleInputEmail1">Email address</label>
-			    <input type="email" class="form-control" id="inputEmail" placeholder="example@foryou.com">
-			</div>
-
-			<div class="form-group">
-			    <label for="inputMessage">Message:</label>
-			    <input type="text" class="form-control" id="inputMessage" placeholder="Please type your message here.">
-			</div>
-			  
-			<div class="form-group">
-			    <label for="exampleInputFile">File Upload</label>
-			    <input type="file" id="exampleInputFile">
-			    <p class="help-block">If you have a file to share, please upload it here.</p>
-			</div>
-			<div class="form-group">
-				<label>How did you find my site?</label>
-				<br>
-					<input type="checkbox"> LinkedIn
-			      	<input type="checkbox"> GitHub
-			      	<input type="checkbox"> Stack Overflow
-			      	<input type="checkbox"> Facebook
-
-			</div>
-			  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
-		
-		</div>
-
-		<div class="floatright">
-			
+		<!-- End first cloumn box -->
+		<!-- Second colum Box -->
+		<div class="panel rightcol col-md-3">
 			<h3>Connect with Me</h3>
-
-			<div class="divider">
-				
-			</div>
-
-			<a href="https://github.com/ethanzander" target="_blank"><img src="assets/githubicon.png" style="width: 50px;height: 50px;">
-			</a>
-			
-			<a href="https://www.linkedin.com/in/ethan-zander-873873a1/" target="_blank"><img src="assets/linkedinicon.png" style="width: 50px;height: 50px;">
-			</a>
-			
-			<a href="https://stackoverflow.com/users/8087216/ethan-zander?tab=profile" target="_blank"><img src="assets/stackoverflowicon.png" style="width: 45px;height: 45px;">
-			</a>
-		
+				<div class="divider"></div>
+					<div class="justify col-md-12">
+						<a href="https://github.com/ethanzander" target="_blank"><img src="assets/githubicon.png" style="width: 50px;height: 50px;"></a>
+						<a href="https://www.linkedin.com/in/ethan-zander-873873a1/" target="_blank"><img src="assets/linkedinicon.png" style="width: 50px;height: 50px;"></a>
+						<a href="https://stackoverflow.com/users/8087216/ethan-zander?tab=profile" target="_blank"><img src="assets/stackoverflowicon.png" style="width: 45px;height: 45px;"></a>
+					</div>
+				</div>	
 		</div>
- 
-	</section> 	
-
+	<!-- End Second Column Box -->
+	</div>
+	<!-- End content div	 -->
+	<!-- Start Footer -->
 	<footer class="footer">
-	
-		Copyright 2017 Ethan Zander
-
+		Copyright &copy 2017 Ethan Zander
 	</footer>
 
 </body>

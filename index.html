@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Index Page - Bootstrap Portfolio </title>
+	<title>About Me - Bootstrap Portfolio </title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	<!-- Header -->
 	<div class="row">
 		<div class="col-md-12">
 			<header class="container-fluid">
@@ -17,7 +18,7 @@
 					Ethan Zander
 				</div>
 				<div class="col-md-3">
-					<nav class="nav nav-pills">
+					<nav class="nav nav-pills btn-group btn-group-lg" role="group">
 						<ul class="nav nav-pills">
   							<li role="presentation" class="disabled"><a href="index.html">Home</a></li>
 						  	<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
@@ -28,42 +29,43 @@
 			</header>
 		</div>
 	</div>
+	<!-- End Header -->
+	<!-- Start Main Content Container -->
 	<div class="content">
-		<!-- First column box -->
-		<div class="row container-fluid ">
-			<section class="content">
-		
-			<div class="leftcol col-md-5">	
-				<h2>About Me</h2>
-					<div class="divider col-md-11"></div>
-				<img src="assets/EthanZander.jpg" style="width:200px;height:200px;">
-					I live in Orem Utah with my wife and 2 children. I like to Code and Mountian Bike!!
+		<!-- Start First column box -->
+		<div class="panel panel-default leftcol col-md-7">
+			
+			<div class="panel-heading">	
+					<h2>About Me</h2>
 			</div>
-
-		<div class="rightcol col-md-2">
-			
-			<h3>Connect with Me</h3>
-
-			<div class="divider">
-				
+					<div class="panel-body">
+						<img src="assets/EthanZander.jpg" style="width:auto;height:200px;">
+						
+							<p>"As you go through life, whatever be your goal, keep you eye on the doughnut and not on the hole." -Unknown</p>
+      						<p>This quote is about not missing out on life. you need to be looking at and enjoynig the right things in life or before you know it, 
+      						you will be looking back on nothing. Your life will be gone and you will not have made the amazing memories along the way.</p>
+      						<p>I love to be with my family. My wife and I have been married 7 years. We have 2 amazing children. Anytime I spend with them is so great. I also love to moutian bike, skateboard, ski/snowboard or skimboard in my free time. </p>
+      						<p>I attended Utah Valley University in Orem Utah. I earned a Bacholors degree in Psychology and minored in Digital Media. I enjoy graphic desing and all things printed media. I am excited to learn more about web development! It is an everchanging and advancing industry that is challenging and fun.</p>
+					</div>
+		</div>	
+		<!-- END First column box -->
+			<!-- START Second colum Box -->
+			<div class="panel rightcol col-md-3">
+				<h3>Connect with Me</h3>
+					<div class="divider"></div>
+				<div class="justify col-md-12">
+					<a href="https://github.com/ethanzander" target="_blank"><img src="assets/githubicon.png" style="width: 50px;height: 50px; "></a>
+					<a href="https://www.linkedin.com/in/ethan-zander-873873a1/" target="_blank"><img src="assets/linkedinicon.png" style="width: 50px;height: 50px;"></a>
+					<a href="https://stackoverflow.com/users/8087216/ethan-zander?tab=profile" target="_blank"><img src="assets/stackoverflowicon.png" style="width: 45px;height: 45px;"></a>
+				</div>
 			</div>
-
-			<a href="https://github.com/ethanzander" target="_blank"><img src="assets/githubicon.png" style="width: 50px;height: 50px;">
-			</a>
-			
-			<a href="https://www.linkedin.com/in/ethan-zander-873873a1/" target="_blank"><img src="assets/linkedinicon.png" style="width: 50px;height: 50px;">
-			</a>
-			
-			<a href="https://stackoverflow.com/users/8087216/ethan-zander?tab=profile" target="_blank"><img src="assets/stackoverflowicon.png" style="width: 45px;height: 45px;">
-			</a>
-		
-		</div>
- 
-	</section> 	
-
+			<!-- End Second Column Box -->
+ 		
+ 	</div>
+ 	<!-- End Main Content Container -->	
 	<footer class="footer">
 	
-		Copyright 2017 Ethan Zander
+		Copyright &copy 2017 Ethan Zander
 
 	</footer>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
